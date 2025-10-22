@@ -1,0 +1,120 @@
+{
+  "skills": [
+    "React 19",
+    "Angular",
+    "Node.js",
+    "Express.js",
+    "Nest.js",
+    "C# .NET",
+    "Python",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "Git"
+  ],
+  "projects": [
+    {
+      "name": "Land Valuation App",
+      "description": "This app simplifies property valuation with automated estimates and comparative market analysis (scrapped data from zillow using selenium). Its interactive geospatial mapping visualizes property data, while customizable reports offer detailed insights. More features and datasets to come !",
+      "technologies": [
+        "React 19",
+        "React-router v7",
+        "Node.js 22",
+        "PostgreSQL",
+        "Docker",
+        "Python (selenium)"
+      ],
+      "images": [
+        {
+          "name": "details",
+          "src": "/images/land-valuation-app/details.PNG",
+          "description": "Detailed request view showing comprehensive land valuation data and metrics for the 'complete' state"
+        },
+        {
+          "name": "list-view",
+          "src": "/images/land-valuation-app/list-view.PNG",
+          "description": "Overview of all requests in a filterable list format with server-side pagination"
+        },
+        {
+          "name": "login",
+          "src": "/images/land-valuation-app/login.PNG",
+          "description": "Simple login interface"
+        },
+        {
+          "name": "new-view",
+          "src": "/images/land-valuation-app/new-view.PNG",
+          "description": "Form interface for adding new requests files (csv) to the system with a drag and drop feature, followed by column mapping for the columns needed for the algorithm."
+        },
+        {
+          "name": "refined-output",
+          "src": "/images/land-valuation-app/refined-output.PNG",
+          "description": "refined version of results, contains lands' assessed values compared to the real prices, which potentially helps with decision making"
+        }
+      ],
+      "repo": "https://github.com/Anis-Al/land-valuation-app"
+    },
+    {
+      "name": "Société Générale's corrective actions app",
+      "description": "This web app, Built during my internship at Société Générale, automates the management of banking corrective actions for given loans of Société Générale, ensuring compliance with Bank of Algeria regulations",
+      "technologies": ["Angular", "C# .NET", "Ms Sql Server"],
+      "images": [
+        {
+          "name": "Credit Add Form",
+          "src": "/images/dccr/credit-ajout-form.PNG",
+          "description": "Form for adding new credit entries with fields for credit details, client information, and validation controls. Includes input validation and required field indicators."
+        },
+        {
+          "name": "Credit Modification Form",
+          "src": "/images/dccr/credits-modif-form.PNG",
+          "description": "Interface for updating existing credit information with audit trail and version control. Maintains data integrity with validation rules and approval workflows."
+        },
+        {
+          "name": "Credit Consumption Details",
+          "src": "/images/dccr/credits-cons-details.PNG",
+          "description": "Detailed breakdown of credit consumption patterns with filtering by date range, credit type, and status. Includes export functionality for reporting."
+        },
+        {
+          "name": "Excel Integration Interface",
+          "src": "/images/dccr/excel-integration.PNG",
+          "description": "Data import/export module with Excel integration. Supports bulk operations, template downloads, and data mapping configuration."
+        },
+        {
+          "name": "Excel Data Validation",
+          "src": "/images/dccr/excel-integration-correct.PNG",
+          "description": "Real-time validation feedback during Excel import, highlighting data quality issues and providing correction suggestions before final submission."
+        },
+        {
+          "name": "Error Resolution Panel",
+          "src": "/images/dccr/excel-integration-erreurs.PNG",
+          "description": "Error resolution interface showing detailed validation failures with options to correct, override, or exclude problematic records during import processes."
+        },
+        {
+          "name": "BA Declaration Generator",
+          "src": "/images/dccr/gen-decl-ba.PNG",
+          "description": "Automated BA declaration generation tool with preview functionality. Supports batch processing and compliance verification before submission."
+        },
+        {
+          "name": "Excel Data Mapping",
+          "src": "/images/dccr/excel-details-credits.PNG",
+          "description": "Column mapping interface for Excel imports, allowing flexible field matching and transformation rules for different data sources."
+        }
+      ],
+      "repo": ""
+    }
+  ],
+
+  "socials": [
+    {
+      "name": "Email",
+      "href": "anis.algiers@gmail.com"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/anis-alim-348b8a212"
+    },
+    {
+      "name": "Github",
+      "href": "https://github.com/Anis-Al"
+    }
+  ]
+}
